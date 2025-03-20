@@ -16,7 +16,10 @@ tiny-imagenet-200.10/ - tiny imagenet with 10 classes
 │   ├── ... (more class folders)
 │
 │── val/
-│   ├── images/                 # Contains validation images
+├── n02124075/              # Example class folder
+│   │   ├── images/             # Contains training images for this class
+│   ├── n04067472/              # Another class folder (one per class)
+│   │   ├── images/
 │   ├── val_annotations.txt      # Annotations for validation images
 │
 │── wnids.txt                    # List of class IDs
